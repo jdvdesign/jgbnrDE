@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+@media (hover: none) {
+  .customButton {
+    background: white;
+  }
+  .mainButton {
+    background: #f9ab00;
+    color: white;
+  }
+  .productButton {
+    background: #f9ab00;
+    color: white;
+  }
+}
+
 .container {
   max-width: 1536px;
 }
