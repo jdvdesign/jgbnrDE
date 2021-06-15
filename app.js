@@ -25,7 +25,7 @@ const toProducts = document
   .getElementById('toProducts')
   .addEventListener('click', () => {
     if (window.innerWidth <= 575.98) {
-      window.scrollBy({ top: 475, left: 0, behavior: 'smooth' });
+      window.scrollBy({ top: 490, left: 0, behavior: 'smooth' });
     }
     if (window.innerWidth >= 576 && window.innerWidth <= 767.98) {
       window.scrollBy({ top: 475, left: 0, behavior: 'smooth' });
