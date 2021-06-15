@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-@media (hover: hover) and (pointer: fine) {
+@media (hover: none) {
   .customButton {
     background: white;
   }
@@ -232,6 +232,7 @@ h1 {
   margin-bottom: 40px;
 }
 .productImage {
+  width: 80%;
   height: 350px;
   object-fit: contain;
   margin-left: 20px;
@@ -281,6 +282,7 @@ h1 {
 
 @media (max-width: 1199.98px) {
   .productImage {
+    width: 80%;
     height: 250px;
     object-fit: contain;
     margin-left: 20px;
@@ -389,6 +391,7 @@ h1 {
     margin-bottom: 40px;
   }
   .productImage {
+    width: 80%;
     height: 200px;
     object-fit: contain;
     margin-left: 0px;
@@ -475,6 +478,7 @@ h1 {
     margin-bottom: 40px;
   }
   .productImage {
+    width: 80%;
     height: 160px;
     object-fit: contain;
     margin-left: 0px;
@@ -561,6 +565,7 @@ h1 {
     margin-bottom: 40px;
   }
   .productImage {
+    width: 80%;
     height: 150px;
     object-fit: contain;
     margin-left: 0px;
