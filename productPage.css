@@ -1,3 +1,14 @@
+@media (hover: none) {
+  .certificateButtonInProduct {
+    background: #f9ab00;
+    color: white;
+  }
+  .contactForProduct {
+    background: #a9c45e;
+    color: white;
+  }
+}
+
 .singleProductContainer {
   margin-top: 180px;
 }
