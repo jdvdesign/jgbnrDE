@@ -1,4 +1,4 @@
-@media (hover: none) {
+@media (hover: hover) and (pointer: fine) {
   .certificateButtonInProduct {
     background: #f9ab00;
     color: white;
