@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.container {
+  max-width: 1536px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  color: black !important;
+  outline: none !important;
+}
+button {
+  outline: none !important;
+}
+h1 {
+  font-size: 32px;
+}
+.backToTop {
+  position: fixed;
+  display: none;
+  padding: 15px 20px;
+  background: #a9c45e;
+  border-radius: 5px;
+  bottom: 35px;
+  right: 15px;
+  cursor: pointer;
+}
+.fa-arrow-up {
+  color: white;
+  font-size: 16px;
+}
+
+/* Top Header Contact */
+.firstHeader {
+  padding: 15px 10px;
+  background: #a9c45e;
+  color: white;
+}
+.firstHeaderLink {
+  color: white !important;
+}
+#headerContainer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-top: 55px;
+  z-index: 10;
+  transition: all 0.2s ease-in-out;
+}
+.bannerContainer {
+  margin-top: 150px;
+}
+
+/* Brand Image */
+.brandImage {
+  height: 125px;
+  object-fit: contain;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+}
+.brandImageMobile {
+  height: 55px;
+  object-fit: contain;
+  padding: 8px;
+}
+
+/* Menu */
+#navigation {
+  background: white !important;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-nav {
+  margin-right: 60px;
+}
+.nav-item {
+  padding-bottom: 4px;
+  border-bottom: 4px solid #66921b;
+  transition: 0.2s all ease-in-out;
+}
+.nav-item:hover {
+  border-bottom: 4px solid #a9c45e;
+}
+.nav-item:active {
+  border-bottom: 4px solid #f9ab00;
+}
+.nav-item-current {
+  border-bottom: 4px solid #f9ab00;
+}
+
+/* Mobile Nav icon */
+.phoneIcon {
+  color: #86888a;
+}
+.navbar-toggler {
+  padding-right: 0;
+}
+.navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 4px auto;
+  background: #86888a;
+  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.navbar-toggler,
+.navbar-toggler:focus {
+  border: 0;
+  outline: 0;
+}
+.navbar-toggler:hover span,
+.navbar-toggler:focus span {
+  background: #86888a;
+}
+.navbar-toggler[aria-expanded='true'] span:first-of-type {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+.navbar-toggler[aria-expanded='true'] span:nth-of-type(2) {
+  opacity: 0;
+}
+.navbar-toggler[aria-expanded='true'] span:last-of-type {
+  transform: rotate(-45deg) translate(4px, -4px);
+}
+.navbar-toggler[aria-expanded='false'] span {
+  transform: none;
+  opacity: 1;
+}
+
+/* Banner Image */
+.bannerImage {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 90%;
+  object-fit: cover;
+}
+
+/* Banner Text Background */
+.bannerTextBackground {
+  margin-top: 110px;
+  background: rgba(27, 28, 37, 0.9);
+  border-radius: 10px;
+  margin-left: 60px;
+  padding: 32px;
+}
+/* Banner Text */
+.bannerText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(250, 250, 250);
+}
+/* Banner EnPlus Logo */
+.bannerEnPlusLogo {
+  width: 20%;
+  margin-left: 5px;
+}
+/* Banner Paragraph */
+.bannerIntroduction {
+  margin-bottom: 25px;
+}
+/* Custom Button */
+.customButton {
+  padding: 14px 22px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: white;
+  transition: 0.2s all ease-in-out;
+}
+.customButton:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid #f9ab00;
+}
+.mainButton {
+  background: #f9ab00;
+  color: white;
+}
+/* Banner Link Buttons */
+.bannerButtonLink {
+  margin-left: 12px;
+}
+.bannerButtonLink:first-child {
+  margin-left: 0px;
+}
+
+/* Introduction after banner */
+.introductionText {
+  margin-top: 180px;
+  font-weight: 600;
+}
+.breakLine {
+  padding: 4px 20px;
+  margin: 15px 0;
+  background: #a9c45e;
+}
+.introdutionTextSecond {
+  font-weight: 600;
+}
+
+/* Products Header Text */
+.sectionHeading {
+  padding-bottom: 6px;
+  border-bottom: 3px solid #a9c45e;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* Products */
+.productContainer {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.productImage {
+  width: 80%;
+  height: 350px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.productName {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.productIcon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  background: #66921b;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.productButton {
+  margin-top: 15px;
+  padding: 14px 22px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #f9ab00;
+  color: white;
+}
+.productButtonLink {
+  transition: all 0.2s ease-in-out;
+}
+.productButtonLink:hover {
+  opacity: 80%;
+}
+
+/* Contacts */
+.contactHeading {
+  font-weight: 600;
+  font-size: 18px;
+}
+.contactSpacing {
+  margin-top: 20px;
+}
+.adressText {
+  text-align: center;
+  width: 75%;
+}
+
+@media (max-width: 1199.98px) {
+  .productImage {
+    width: 80%;
+    height: 250px;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+  .productName {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .adressText {
+    font-size: 16px;
+    text-align: center;
+    width: 75%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* Mobile */
+  .navbar-nav {
+    margin-right: 0px;
+  }
+  .nav-item {
+    font-size: 16px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #86888a;
+    transition: 0.2s all ease-in-out;
+  }
+  .nav-item:last-child {
+    border-bottom: 1px solid transparent;
+  }
+  .nav-item:hover {
+    border-bottom: 1px solid #86888a;
+  }
+  .nav-item:hover:last-child {
+    border-bottom: 1px solid transparent;
+  }
+  .nav-item:active {
+    border-bottom: 1px solid black;
+  }
+  .nav-item:active:last-child {
+    border-bottom: 1px solid transparent;
+  }
+  .nav-item-current {
+    border-bottom: 1px solid #f9ab00;
+  }
+  #headerContainer {
+    margin-top: 0px;
+  }
+  .bannerContainer {
+    margin-top: 70px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .mobileNavPhone {
+    font-size: 16px;
+  }
+  .bannerIntroduction {
+    font-size: 16px;
+  }
+  .customButton {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+  .bannerButtonLink {
+    margin-left: 10px;
+  }
+  .bannerButtonLink:first-child {
+    margin-left: 0px;
+  }
+  .bannerTextBackground {
+    margin-top: 70px;
+    border-radius: 0;
+    padding: 20px 10px;
+    margin-left: 0px;
+    padding: 32px;
+  }
+  .bannerImage {
+    height: 400px;
+  }
+  .introductionText {
+    margin-top: 80px;
+    font-size: 26px;
+  }
+  .introdutionTextSecond {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .sectionHeading {
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .allProductsContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .productName {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .productNameNoWrap {
+    white-space: nowrap;
+  }
+  .productContainer {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .productImage {
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+    margin-left: 0px;
+  }
+  .productDescription {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .productIcon {
+    width: 26px;
+    height: 26px;
+  }
+  .productButton {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+  .contactHeading {
+    font-size: 16px;
+  }
+  .adressText {
+    font-size: 16px;
+    text-align: center;
+    width: 75%;
+  }
+  .footerText {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 22px;
+  }
+  .mobileNavPhone {
+    font-size: 14px;
+  }
+  .nav-item {
+    font-size: 14px;
+  }
+  .bannerIntroduction {
+    font-size: 14px;
+  }
+  .customButton {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .bannerButtonLink {
+    margin-left: 5px;
+  }
+  .bannerButtonLink:first-child {
+    margin-left: 0px;
+  }
+  .bannerTextBackground {
+    margin-top: 50px;
+    border-radius: 0;
+    padding: 30px 10px;
+  }
+  .bannerImage {
+    height: 350px;
+  }
+  .introductionText {
+    margin-top: 70px;
+    font-size: 22px;
+  }
+  .introdutionTextSecond {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .sectionHeading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .allProductsContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .productName {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .productContainer {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .productImage {
+    width: 80%;
+    height: 160px;
+    object-fit: contain;
+    margin-left: 0px;
+  }
+  .productDescription {
+    font-size: 14px;
+  }
+  .productIcon {
+    width: 24px;
+    height: 24px;
+  }
+  .productButton {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .contactHeading {
+    font-size: 16px;
+  }
+  .adressText {
+    font-size: 14px;
+    text-align: center;
+    width: 75%;
+  }
+  .footerText {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 20px;
+  }
+  .mobileNavPhone {
+    font-size: 14px;
+  }
+  .nav-item {
+    font-size: 14px;
+  }
+  .bannerIntroduction {
+    font-size: 14px;
+  }
+  .customButton {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .bannerButtonLink {
+    margin-left: 5px;
+  }
+  .bannerButtonLink:first-child {
+    margin-left: 0px;
+  }
+  .bannerTextBackground {
+    margin-top: 50px;
+
+    border-radius: 0;
+    padding: 20px 10px;
+  }
+  .bannerImage {
+    height: 350px;
+  }
+  .introductionText {
+    margin-top: 100px;
+    font-size: 20px;
+  }
+  .introdutionTextSecond {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .sectionHeading {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .allProductsContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .productName {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .productContainer {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .productImage {
+    width: 80%;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 0px;
+  }
+  .productDescription {
+    font-size: 14px;
+  }
+  .productIcon {
+    width: 24px;
+    height: 24px;
+  }
+  .productButton {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .contactHeading {
+    font-size: 16px;
+  }
+  .adressText {
+    font-size: 14px;
+    text-align: center;
+    width: 75%;
+  }
+  .footerText {
+    font-size: 14px;
+  }
+}

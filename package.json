@@ -1,0 +1,17 @@
+{
+  "name": "natur-holz-pellets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://jdvdesign.github.io/granules",
+  "dependencies": {
+    "gh-pages": "^3.2.1",
+    "smoothscroll-polyfill": "^0.4.4"
+  }
+}
