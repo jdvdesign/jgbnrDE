@@ -11,7 +11,8 @@
   }
 }
 
-.testing {
+.testing,
+.testingImage {
   background: black;
 }
 
