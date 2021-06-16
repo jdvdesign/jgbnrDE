@@ -1,11 +1,9 @@
-@media (hover: hover) and (pointer: fine) {
-  .certificateButtonInProduct {
-    background: #f9ab00;
-    color: white;
+@media (hover: hover) {
+  .certificateButtonInProduct:hover {
+    opacity: 80%;
   }
-  .contactForProduct {
-    background: #a9c45e;
-    color: white;
+  .contactForProduct:hover {
+    opacity: 80%;
   }
 }
 
