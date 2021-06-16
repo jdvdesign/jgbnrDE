@@ -182,7 +182,7 @@ h1 {
   background: white;
   transition: 0.2s all ease-in-out;
 }
-.customButton:hover {
+.customButton:active {
   background: transparent;
   color: white;
   border: 1px solid #f9ab00;
@@ -263,7 +263,7 @@ h1 {
 .productButtonLink {
   transition: all 0.2s ease-in-out;
 }
-.productButtonLink:hover {
+.productButtonLink:active {
   opacity: 80%;
 }
 

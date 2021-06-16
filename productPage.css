@@ -72,7 +72,7 @@
   color: white;
   transition: 0.2s ease-in-out all;
 }
-.certificateButtonInProduct:hover {
+.certificateButtonInProduct:active {
   opacity: 80%;
 }
 .contactForProduct {
@@ -85,7 +85,7 @@
   color: white;
   transition: 0.2s ease-in-out all;
 }
-.contactForProduct:hover {
+.contactForProduct:active {
   opacity: 80%;
 }
 
