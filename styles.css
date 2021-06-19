@@ -51,6 +51,34 @@ h1 {
 .firstHeaderLink {
   color: white !important;
 }
+/* Country Select Desktop */
+.dropdown-menu {
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+}
+.countrySelect {
+  color: white !important;
+  margin-left: 5px;
+  background: #66921b;
+  padding: 8px;
+  border-radius: 10px;
+}
+.dropdown-item:active {
+  background: #a9c45e;
+  color: white !important;
+}
+.dropdown-item:hover {
+  background: #a9c45e;
+  color: white !important;
+}
+/* Country Select Mobile */
+.countrySelectMobile {
+  color: white !important;
+  margin-right: 5px;
+  background: #86888a;
+  padding: 6px;
+  border-radius: 10px;
+}
 #headerContainer {
   position: fixed;
   width: 100%;
@@ -82,6 +110,9 @@ h1 {
 #navigation {
   background: white !important;
   transition: all 0.2s ease-in-out;
+}
+.navbar-brand {
+  margin: 0;
 }
 .navbar-nav {
   margin-right: 60px;
@@ -306,6 +337,10 @@ h1 {
   .navbar-nav {
     margin-right: 0px;
   }
+  .countrySelectMobile,
+  .dropdownMobile {
+    font-size: 16px;
+  }
   .nav-item {
     font-size: 16px;
     padding-bottom: 0px;
@@ -434,7 +469,9 @@ h1 {
   .mobileNavPhone {
     font-size: 14px;
   }
-  .nav-item {
+  .nav-item,
+  .countrySelectMobile,
+  .dropdownMobile {
     font-size: 14px;
   }
   .bannerIntroduction {
@@ -522,7 +559,9 @@ h1 {
   .mobileNavPhone {
     font-size: 14px;
   }
-  .nav-item {
+  .nav-item,
+  .countrySelectMobile,
+  .dropdownMobile {
     font-size: 14px;
   }
   .bannerIntroduction {
