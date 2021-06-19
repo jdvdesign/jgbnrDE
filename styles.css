@@ -59,9 +59,10 @@ h1 {
 .countrySelect {
   color: white !important;
   margin-left: 5px;
-  background: #66921b;
+  /* background: #66921b; */
   padding: 8px;
   border-radius: 10px;
+  border: 1px solid white;
 }
 .dropdown-item:active {
   background: #a9c45e;
@@ -73,9 +74,9 @@ h1 {
 }
 /* Country Select Mobile */
 .countrySelectMobile {
-  color: white !important;
-  margin-right: 8px;
-  background: #86888a;
+  color: #86888a !important;
+  font-weight: 600;
+  margin-right: 2px;
   padding: 6px;
   border-radius: 10px;
 }
