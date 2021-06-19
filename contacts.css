@@ -1,0 +1,33 @@
+.companyLogo,
+.qualityLogo {
+  width: 80px;
+  object-fit: contain;
+  margin: 20px;
+}
+
+.companyDetailsHeading {
+  font-weight: 600;
+}
+.forOrders {
+  font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+  .companyLogo,
+  .qualityLogo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .companyLogo,
+  .qualityLogo {
+    width: 70px;
+  }
+}
+@media (max-width: 576px) {
+  .companyLogo,
+  .qualityLogo {
+    width: 60px;
+  }
+}

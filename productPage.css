@@ -7,10 +7,12 @@
   }
 }
 
-.singleProductContainer {
+.singleProductContainer,
+.aboutPelletsContainer {
   margin-top: 180px;
 }
-.productNameH1 {
+.productNameH1,
+.aboutPelletsHeading {
   font-size: 26px !important;
   font-weight: 600;
 }
@@ -100,13 +102,15 @@
 }
 
 @media (max-width: 991.98px) {
-  .singleProductContainer {
+  .singleProductContainer,
+  .aboutPelletsContainer {
     margin-top: 100px;
   }
   .singleProductLink {
     font-size: 16px;
   }
-  .productNameH1 {
+  .productNameH1,
+  .aboutPelletsHeading {
     margin-top: 20px;
     font-size: 26px !important;
   }
@@ -141,13 +145,15 @@
 }
 
 @media (max-width: 767.98px) {
-  .singleProductContainer {
+  .singleProductContainer,
+  .aboutPelletsContainer {
     margin-top: 100px;
   }
   .singleProductLink {
     font-size: 14px;
   }
-  .productNameH1 {
+  .productNameH1,
+  .aboutPelletsHeading {
     margin-top: 20px;
     font-size: 20px !important;
   }
@@ -182,13 +188,15 @@
 }
 
 @media (max-width: 576px) {
-  .singleProductContainer {
+  .singleProductContainer,
+  .aboutPelletsContainer {
     margin-top: 100px;
   }
   .singleProductLink {
     font-size: 14px;
   }
-  .productNameH1 {
+  .productNameH1,
+  .aboutPelletsHeading {
     margin-top: 20px;
     font-size: 18px !important;
   }
