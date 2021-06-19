@@ -348,9 +348,9 @@ h1 {
     border-bottom: 1px solid #86888a;
     transition: 0.2s all ease-in-out;
   }
-  .nav-item:last-child {
+  /* .nav-item:last-child {
     border-bottom: 1px solid transparent;
-  }
+  } */
   .nav-item:hover {
     border-bottom: 1px solid #86888a;
   }
